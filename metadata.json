@@ -1,0 +1,6 @@
+{
+  "name": "School Assessment Management System",
+  "description": "Comprehensive school assessment system with dedicated teacher subject dashboards, gradebook marksheets, admin verification portal, rubric scoring, and AI question & feedback generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, Cambria, "Times New Roman", serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #1C1917;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Editorial Utility Classes */
+.font-serif-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.editorial-card {
+  background-color: #FFFFFF;
+  border: 1px solid #1C1917;
+  box-shadow: 2px 2px 0px 0px #1C1917;
+}
+
+.editorial-card-subtle {
+  background-color: #FFFFFF;
+  border: 1px solid #E7E5E4;
+}
+
+.editorial-badge {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border: 1px solid #1C1917;
+  background-color: #F5F5F4;
+  color: #1C1917;
+}
+
+/* Custom scrollbar for clean editorial look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6D3D1;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A8A29E;
+}
